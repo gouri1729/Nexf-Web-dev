@@ -1,6 +1,6 @@
-const notesContainer = document.querySelector(".notesContainer");
+const notesContainer = document.querySelector(".notes-container");
 const createBin = document.querySelector(".btn");
-let notes = document.querySelectorAll(".");
+let notes = document.querySelectorAll(".input-box");
 
 function showNotes(){
     notesContainer.innerHTML = localStorage.getItem("notes");
