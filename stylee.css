@@ -11,29 +11,26 @@
     color: #fff;   
     padding-top: 4%;
     padding-left: 10%;
-    
-    
-    
 } 
 .container h1{
     display:flex;
     align-items: center;
-    font: size 50px;
+    font: size 60px;
     font-weight: 600;
 }
 .container h1 img{
     width: 100px;
 }
 .container button img{
-    width: 50px;
+    width: 36px;
     margin-right: 8px;
 }
 .container button{
     display:flex;
     align-items: center;
-    background: linear-gradient(#a44fee,#9a2bfb);
+    background: linear-gradient(#933fdd,#4b0b84);
     color:#fff;
-    font-size:16px;
+    font-size:20px;
     outline: 0;
     border: 0;
     border-radius: 40px;
@@ -43,6 +40,12 @@
 
 
 
+}
+
+.notes-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .input-box{
     position:relative;
